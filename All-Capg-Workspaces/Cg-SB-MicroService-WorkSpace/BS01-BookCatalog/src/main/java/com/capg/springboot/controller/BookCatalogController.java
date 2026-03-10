@@ -1,0 +1,19 @@
+package com.capg.springboot.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capg.springboot.dto.Book;
+
+@RestController
+@RequestMapping("/catalog")
+public class BookCatalogController {
+
+    // http://localhost:9096/catalog/list
+    @RequestMapping("/list")
+    public Book getAllData() {
+
+        return new Book(2001,"BRIDGETON");
+    }
+
+}

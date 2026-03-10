@@ -1,0 +1,14 @@
+package com.capg.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Bs03BookDepoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Bs03BookDepoApplication.class, args);
+		System.out.println("Server Started for Depo");
+	}
+
+}

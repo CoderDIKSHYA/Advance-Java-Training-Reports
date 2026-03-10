@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\Capgemini-Training\All-Capg-Workspaces\Capg-JUnit-Mockito-Workspace\.metadata\.plugins\org.eclipse.jdt.core
+1293532266.index
+939254423.index
+1665307982.index
+4271238801.index
+435308061.index
+1865797976.index
+1654057402.index

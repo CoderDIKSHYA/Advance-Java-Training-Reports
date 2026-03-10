@@ -1,0 +1,19 @@
+package com.capg.springboot.controller;
+
+import org.springframework.web.bind.annotation.*;
+import com.ust.bs.book.dto.Rating;
+
+@RestController
+@RequestMapping("/rating")
+public class RatingController {
+
+    @GetMapping("/{id}")
+    public Rating getRating(@PathVariable int id) {
+
+        Rating rating = new Rating();
+        rating.setBookId(id);
+        rating.setBookRating(4.5);
+
+        return rating;
+    }
+}

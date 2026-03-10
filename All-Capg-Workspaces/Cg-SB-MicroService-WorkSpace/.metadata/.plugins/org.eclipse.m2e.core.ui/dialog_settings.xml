@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Cg-SB-MicroService-WorkSpace\BS03-BookDepo"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Cg-SB-MicroService-WorkSpace\BS02-BookRating"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Cg-SB-MicroService-WorkSpace\BS01-BookCatalog"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Cg-SB-MicroService-WorkSpace\1-Movie-MicroServices"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

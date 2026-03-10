@@ -1,0 +1,27 @@
+package com.capg.springboot.dto;
+
+public class Rating {
+
+    private int bookId;
+    private double bookRating;
+
+    // Default constructor (required for JSON mapping)
+    public Rating() {
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public double getBookRating() {
+        return bookRating;
+    }
+
+    public void setBookRating(double bookRating) {
+        this.bookRating = bookRating;
+    }
+}

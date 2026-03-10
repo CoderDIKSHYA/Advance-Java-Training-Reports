@@ -1,0 +1,56 @@
+spring.application.name=SpringBoot-Movie-CRUD
+# STEP 31
+# Change the default port of the Spring Boot application.
+# By default Spring Boot runs on port 8080.
+# Here we are changing it to 9090.
+
+server.port=9090
+
+
+# STEP 32
+# This property specifies the JDBC driver class for MySQL database.
+
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+
+
+# STEP 33
+# Hibernate dialect tells Hibernate how to generate SQL queries
+# specific to MySQL 8 database.
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+
+# STEP 34
+# Enables automatic generation of database tables
+# based on the entity classes.
+
+spring.jpa.generate-ddl=true
+
+
+# STEP 35
+# ddl-auto=create means:
+# Every time the application runs, Hibernate will drop
+# the existing tables and create new tables automatically.
+
+spring.jpa.hibernate.ddl-auto=create
+
+
+# STEP 36
+# Database connection URL
+# localhost -> database is running on the same system
+# 3306 -> default MySQL port
+# mycapgdb -> name of the database
+
+spring.datasource.url=jdbc:mysql://localhost:3306/mycapgdb
+
+
+# STEP 37
+# Username for MySQL database login
+
+spring.datasource.username=root
+
+
+# STEP 38
+# Password for MySQL database login
+
+spring.datasource.password=root123

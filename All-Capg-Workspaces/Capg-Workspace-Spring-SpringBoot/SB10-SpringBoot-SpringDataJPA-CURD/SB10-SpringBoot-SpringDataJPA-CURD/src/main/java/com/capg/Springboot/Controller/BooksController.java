@@ -1,0 +1,53 @@
+package com.capg.Springboot.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import com.capg.Springboot.Service.BooksService;
+import com.capg.Springboot.Entity.Books;
+
+//import com.capg.springboot.entity.Books;
+//import com.capg.springboot.service.BooksService;
+
+@RestController
+public class BooksController {
+
+    @Autowired
+    private BooksService booksService;
+
+    // Add Book
+    @PostMapping("/addbook")
+    public String addBook(@RequestBody Books book) {
+        booksService.addBook(book);
+        return "Book added successfully";
+    }
+
+    // Get All Books
+    @GetMapping("/allbooks")
+    public List<Books> getAllBook() {
+        return booksService.getAllBooks();
+    }
+
+    // Book Search by ID
+    @GetMapping("/bookid/{bookid}")
+    public Books getBookById(@PathVariable int bookid) {
+        return booksService.getBookById(bookid);
+    }
+
+    // Update Book
+    @PutMapping("/updatebook")
+    public Books update(@RequestBody Books books) {
+        booksService.update(books);
+        return books;
+    }
+
+    // Delete Book
+    @DeleteMapping("/bookid/{bookid}")
+    public String deleteBook(@PathVariable int bookid) {
+        booksService.delete(bookid);
+        return "Book deleted successfully";
+    }
+
+}

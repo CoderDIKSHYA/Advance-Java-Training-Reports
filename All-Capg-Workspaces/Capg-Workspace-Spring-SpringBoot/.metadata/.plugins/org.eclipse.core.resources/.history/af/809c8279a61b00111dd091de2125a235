@@ -1,0 +1,43 @@
+package com.capg.springboot.controller;
+
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+
+import com.capg.springboot.dto.Book;
+import com.capg.springboot.dto.Rating;
+import com.capg.springboot.dto.BookDepo;
+
+@RestController
+@RequestMapping("/bookinfo")
+public class BookDepoController {
+
+	@GetMapping("/{id}")
+	public BookDepo getBookInfo(@PathVariable int id) {
+
+	    RestTemplate restTemplate = new RestTemplate();
+
+	    Book book = restTemplate.getForObject(
+	            "http://localhost:9096/book/" + id,
+	            Book.class);
+
+	    Rating rating = restTemplate.getForObject(
+	            "http://localhost:9097/rating/" + id,
+	            Rating.class);
+
+	    System.out.println(book);
+	    System.out.println(rating);
+
+	    BookDepo info = new BookDepo();
+
+	    if (book != null) {
+	        info.setBookId(book.getBookId());
+	        info.setBookName(book.getBookName());
+	    }
+
+	    if (rating != null) {
+	        info.setBookRating(rating.getBookRating());
+	    }
+
+	    return info;
+	}
+}

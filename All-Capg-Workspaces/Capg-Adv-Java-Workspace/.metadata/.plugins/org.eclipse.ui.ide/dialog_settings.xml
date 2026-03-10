@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Downloads\Capgemini_Advance_Training-main\Capgemini_Advance_Training-main\Relations_Assessment"/>
+			<item value="D:\Downloads\SF05_Spring1\SF05_Spring"/>
+			<item value="D:\Downloads\SF05_Spring1\SF05_Spring_with_DAO_Products"/>
+			<item value="D:\Downloads\SF04-Spring-with-DAO-20260221T063206Z-1-001\SF04-Spring-with-DAO"/>
+			<item value="D:\Downloads\Hibernate10_JPAOneToManyBI-20260221T062319Z-1-001"/>
+			<item value="D:\Downloads\Hibernate11_JPAManyToManyBI-20260221T062324Z-1-001"/>
+			<item value="D:\Downloads\Hibernate08_JPAOneToOneUni-20260216T102239Z-1-001"/>
+			<item value="D:\Downloads\Hibernate09_JPAOneToOneBI-20260216T102241Z-1-001\Hibernate09_JPAOneToOneBI"/>
+			<item value="D:\Downloads\SF01_TightlyCoupling-20260216T100841Z-1-001\SF01_TightlyCoupling"/>
+			<item value="D:\Downloads\Hibernate_Assessment_01"/>
+			<item value="D:\Downloads\Hibernate05_Layers_CURD-20260214T065624Z-1-001\Hibernate05_Layers_CURD"/>
+			<item value="D:\Downloads\Hibernate07_JPA_Emp_CURD_Oracle-20260214T063542Z-1-001\Hibernate07_JPA_Emp_CURD_Oracle"/>
+			<item value="D:\Downloads\4-JPA-20260214T054214Z-1-001\4-JPA"/>
+			<item value="D:\Downloads\LA01-BookLayers-JDBC_Oracle\LA01-BookLayers-JDBC_Oracle"/>
+			<item value="D:\Downloads\3-Hibernate-20260213T040712Z-1-001\3-Hibernate\Hibernate03_CURD_Oracle"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

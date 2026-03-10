@@ -1,0 +1,31 @@
+package com.capg.springboot.dto;
+
+
+public class Rating {
+
+    private int bookId;
+    private double bookRating;
+
+    public Rating() {}
+
+    public Rating(int bookId, double bookRating) {
+        this.bookId = bookId;
+        this.bookRating = bookRating;
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public double getBookRating() {
+        return bookRating;
+    }
+
+    public void setBookRating(double bookRating) {
+        this.bookRating = bookRating;
+    }
+}

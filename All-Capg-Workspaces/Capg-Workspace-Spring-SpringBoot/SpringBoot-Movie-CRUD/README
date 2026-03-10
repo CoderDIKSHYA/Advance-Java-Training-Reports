@@ -1,0 +1,27 @@
+# Movie CRUD API URLs
+
+Base URL:
+http://localhost:9090
+
+1. Add Movie
+POST http://localhost:9090/movie
+Comment: Adds a new movie to the system.
+
+2. Get All Movies
+GET http://localhost:9090/movies
+Comment: Retrieves the list of all movies.
+
+3. Get Movie By ID
+GET http://localhost:9090/movie/{id}
+Example: GET http://localhost:9090/movie/1
+Comment: Fetches a movie using its ID.
+
+4. Update Movie
+PUT http://localhost:9090/movie/{id}
+Example: PUT http://localhost:9090/movie/1
+Comment: Updates the details of an existing movie.
+
+5. Delete Movie
+DELETE http://localhost:9090/movie/{id}
+Example: DELETE http://localhost:9090/movie/1
+Comment: Deletes the movie with the given ID.

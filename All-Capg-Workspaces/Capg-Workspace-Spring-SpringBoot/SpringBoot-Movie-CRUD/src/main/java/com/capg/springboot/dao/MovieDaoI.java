@@ -1,0 +1,26 @@
+package com.capg.springboot.dao;
+
+import java.util.List;
+import com.capg.springboot.entities.Movie;
+
+/*
+STEP 9:
+DAO (Data Access Object) layer is responsible for
+database operations.
+
+Here we define CRUD method signatures.
+*/
+
+public interface MovieDaoI {
+
+	Movie addMovie(Movie movie);
+
+	List<Movie> getAllMovies();
+
+	Movie getMovieById(int id);
+
+	Movie updateMovie(int id, Movie movie);
+
+	String deleteMovie(int id);
+
+}

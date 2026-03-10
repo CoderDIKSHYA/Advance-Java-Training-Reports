@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\1-Movie-MicroServices"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\Springboot-Security-ApplicationProperties1"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SpringBootSecurityAuthentication2"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SpringBoot-Employee-CURD-RAM-20260305T101522Z-1-001"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SB13-SpringBoot-JPA-Cust-Layers"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SB11_SpringBoot_SpringDataJPA_Cust_CRUD"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SB12-SpringBoot-JPA-Product-Layers"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SB10-SpringBoot-SpringDataJPA-CURD"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SpringBoot-Swagger1"/>
+			<item value="D:\Downloads\FoodManagementSystem_Assignment-20260301T173118Z-1-001\FoodManagementSystem_Assignment"/>
+			<item value="D:\Downloads\Food-Management-System-20260301T114554Z-1-001\Food-Management-System"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\Spring-JPA-Laysers-Relations-Anno-20260228T072326Z-1-001"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\SB09-SpringBoot-SpringDataJPA-Post-All\build.gradle"/>
+			<item value="D:\Capgemini-Training\All-Capg-Workspaces\Capg-Workspace-Spring-SpringBoot\Spring-JPA-Laysers-Relations-Anno-20260228T072326Z-1-001\Spring-JPA-Laysers-Relations-Anno\src\main\java\com\employee\entity\Address.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

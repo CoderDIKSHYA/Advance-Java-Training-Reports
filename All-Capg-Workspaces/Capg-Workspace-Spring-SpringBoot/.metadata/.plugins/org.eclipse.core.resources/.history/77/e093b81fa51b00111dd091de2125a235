@@ -1,0 +1,19 @@
+package com.capg.springboot.controller;
+
+import org.springframework.web.bind.annotation.*;
+import com.capg.springboot.dto.Book;
+
+@RestController
+@RequestMapping("/book")
+public class BookCatalogController {
+
+    @GetMapping("/{id}")
+    public Book getBook(@PathVariable int id) {
+
+        Book book = new Book();
+        book.setBookId(id);
+        book.setBookName("Spring Boot Guide");
+
+        return book;
+    }
+}

@@ -1,0 +1,77 @@
+package com.capg.springboot.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.capg.springboot.entities.Movie;
+import com.capg.springboot.exception.MovieNotFoundException;
+
+/*
+STEP 10:
+@Repository annotation indicates that this class
+interacts with the database layer.
+
+In this project we use ArrayList as temporary storage.
+*/
+
+@Repository
+public class MovieDaoImpl implements MovieDao {
+
+	// STEP 11: Creating an ArrayList to store movies
+	List<Movie> movieList = new ArrayList<>();
+
+	// STEP 12: Add Movie
+	@Override
+	public Movie addMovie(Movie movie) {
+
+		movieList.add(movie);
+		return movie;
+	}
+
+	// STEP 13: Get All Movies
+	@Override
+	public List<Movie> getAllMovies() {
+
+		return movieList;
+	}
+
+	// STEP 14: Get Movie By ID
+	@Override
+	public Movie getMovieById(int id) {
+
+		for(Movie m : movieList) {
+
+			if(m.getMovieId() == id)
+				return m;
+		}
+
+		// STEP 15: Throw exception if movie not found
+		throw new MovieNotFoundException("Movie with ID " + id + " not found");
+	}
+
+	// STEP 16: Update Movie
+	@Override
+	public Movie updateMovie(int id, Movie movie) {
+
+		Movie m = getMovieById(id);
+
+		m.setMovieName(movie.getMovieName());
+		m.setGenre(movie.getGenre());
+		m.setRating(movie.getRating());
+
+		return m;
+	}
+
+	// STEP 17: Delete Movie
+	@Override
+	public String deleteMovie(int id) {
+
+		Movie m = getMovieById(id);
+
+		movieList.remove(m);
+
+		return "Movie Deleted Successfully";
+	}
+}

@@ -1,0 +1,25 @@
+# Books CRUD API – Endpoints
+
+Base URL
+http://localhost:9090
+
+1. Add Book (POST)
+   http://localhost:9090/addbook
+
+2. Get All Books (GET)
+   http://localhost:9090/allbooks
+
+3. Get Book By ID (GET)
+   http://localhost:9090/bookid/{bookid}
+
+Example:
+http://localhost:9090/bookid/1
+
+4. Update Book (PUT)
+   http://localhost:9090/updatebook
+
+5. Delete Book (DELETE)
+   http://localhost:9090/bookid/{bookid}
+
+Example:
+http://localhost:9090/bookid/1

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- STEP 1: Maven project configuration -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+ https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+ <modelVersion>4.0.0</modelVersion>
+
+ <!-- STEP 2: Spring Boot parent dependency -->
+ <parent>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-parent</artifactId>
+<version>4.0.3</version>
+  <relativePath/>
+ </parent>
+
+ <!-- STEP 3: Project information -->
+ <groupId>com.capg.springboot</groupId>
+ <artifactId>SpringBoot-Movie-CRUD</artifactId>
+ <version>0.0.1-SNAPSHOT</version>
+ <name>SpringBoot-Movie-CRUD</name>
+ <description>Movie CRUD Spring Boot Application</description>
+
+ <!-- STEP 4: Java version -->
+ <properties>
+  <java.version>17</java.version>
+ </properties>
+
+ <!-- STEP 5: Dependencies -->
+ <dependencies>
+
+  <!-- Spring Boot Web Dependency -->
+  <dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-web</artifactId>
+  </dependency>
+
+  <!-- Spring Boot JPA Dependency -->
+  <dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-data-jpa</artifactId>
+  </dependency>
+
+  <!-- MySQL Database Driver -->
+  <dependency>
+   <groupId>com.mysql</groupId>
+   <artifactId>mysql-connector-j</artifactId>
+   <scope>runtime</scope>
+  </dependency>
+
+  <!-- Spring Boot Testing -->
+  <dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-test</artifactId>
+   <scope>test</scope>
+  </dependency>
+
+ </dependencies>
+
+ <!-- STEP 6: Maven build plugin -->
+ <build>
+  <plugins>
+   <plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+   </plugin>
+  </plugins>
+ </build>
+
+</project>

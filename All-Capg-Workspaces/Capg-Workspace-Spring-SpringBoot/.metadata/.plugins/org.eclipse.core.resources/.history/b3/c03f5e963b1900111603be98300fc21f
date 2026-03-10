@@ -1,0 +1,5 @@
+package com.capg.springboot.entities;
+
+public class Movie {
+
+}
